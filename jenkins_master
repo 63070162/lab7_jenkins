@@ -1,8 +1,6 @@
 pipeline {
     agent any
     
-    def data = readJSON file: "${env.WORKSPACE}\\Projects.json"
-
     stages {
         
         stage('Welcome to master'){
